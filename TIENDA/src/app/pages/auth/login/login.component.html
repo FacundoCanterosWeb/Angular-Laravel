@@ -1,0 +1,79 @@
+<main>
+
+    <!-- inicio de área de migas de pan -->
+    <section class="breadcrumb__area include-bg text-center pt-95 pb-50">
+       <div class="container">
+          <div class="row">
+             <div class="col-xxl-12">
+                <div class="breadcrumb__content p-relative z-index-1">
+                   <h3 class="breadcrumb__title">Mi cuenta</h3>
+                   <div class="breadcrumb__list">
+                      <span><a href="#">Inicio</a></span>
+                      <span>Mi cuenta</span>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
+    <!-- fin de área de migas de pan -->
+
+    <!-- inicio de área de inicio de sesión -->
+    <section class="tp-login-area pb-140 p-relative z-index-1 fix">
+       <div class="tp-login-shape">
+          <img class="tp-login-shape-1" src="assets/img/login/login-shape-1.png" alt="">
+          <img class="tp-login-shape-2" src="assets/img/login/login-shape-2.png" alt="">
+          <img class="tp-login-shape-3" src="assets/img/login/login-shape-3.png" alt="">
+          <img class="tp-login-shape-4" src="assets/img/login/login-shape-4.png" alt="">
+       </div>
+       <div class="container">
+          <div class="row justify-content-center">
+             <div class="col-xl-6 col-lg-8">
+                <div class="tp-login-wrapper">
+                   <div class="tp-login-top text-center mb-30">
+                      <h3 class="tp-login-title">Inicia sesión en Shofy.</h3>
+                      <p>¿No tienes una cuenta? <span><a routerLink="/register">Crea una cuenta gratis</a></span></p>
+                   </div>
+                   <div class="tp-login-option">
+                      <div class="tp-login-mail text-center mb-40">
+                         <p>o inicia sesión con <a href="#">Email</a></p>
+                      </div>
+                      <div class="tp-login-input-wrapper">
+                         <div class="tp-login-input-box">
+                            <div class="tp-login-input">
+                               <input id="email" type="email" [(ngModel)]="email" placeholder="tucorreo@mail.com">
+                            </div>
+                            <div class="tp-login-input-title">
+                               <label for="email">Tu correo electrónico</label>
+                            </div>
+                         </div>
+                         <div class="tp-login-input-box">
+                            <div class="tp-login-input">
+                               <input id="tp_password" type="password" [(ngModel)]="password" placeholder="Mínimo 6 caracteres">
+                            </div>
+                            <div class="tp-login-input-eye" id="password-show-toggle">
+                               <span id="open-eye" class="open-eye">
+                                  <!-- SVG del ojo abierto -->
+                               </span>
+                               <span id="close-eye" class="open-close">
+                                  <!-- SVG del ojo cerrado -->
+                               </span>
+                            </div>
+                            <div class="tp-login-input-title">
+                               <label for="tp_password">Tu contraseña</label>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="tp-login-bottom">
+                        <a href="#" onclick="return false;" (click)="login()" class="tp-login-btn w-100">Iniciar sesión</a>
+                         <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
+    <!-- fin de área de inicio de sesión -->
+
+</main>
