@@ -253,20 +253,7 @@
 																<td style="border-radius: 10px 10px 0 0;"
 																	bgcolor="#ffffff">
 																	<!-- Logo -->
-																	<table width="100%" border="0" cellspacing="0"
-																		cellpadding="0">
-																		<tr>
-																			<td class="img-center p-30 px-15"
-																				style="font-size:0pt; line-height:0pt; text-align:center; padding: 30px; padding-left: 15px; padding-right: 15px;">
-																				<a href="https://laravest.com/" target="_blank"><img
-																						src="https://laravest.com/assets_lab/images/Logo-2.webp"
-																						style="background: black;border-radius: 5px;"
-																						width="112" height="43"
-																						editable="true" border="0"
-																						alt="" /></a>
-																			</td>
-																		</tr>
-																	</table>
+																	
 																	<!-- Logo -->
 
 																	<!-- Main -->
@@ -308,17 +295,9 @@
 																									<td class="text-16 lh-26 a-center pb-25"
 																										style="font-size:16px; color:#6e6e6e; font-family:'PT Sans', Arial, sans-serif; min-width:auto !important; line-height: 26px; text-align:center; padding-bottom: 25px;">
 																										<multiline>
-																											Great news,
-																											<b>{{ $user->name. ' '.$user->surname }}!</b> Your
-																											order&rsquo;s
-																											on the truck
-																											and heading
-																											your way.
-																											Just click
-																											the button
-																											below to
-																											track its
-																											progress.
+																											¡Grandes noticias, 
+																											<b>{{ $user->name. ' '.$user->surname }}!</b> 
+																											Tus productos te están esperando. 
 																										</multiline>
 																									</td>
 																								</tr>

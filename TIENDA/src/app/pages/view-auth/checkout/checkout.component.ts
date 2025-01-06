@@ -110,11 +110,11 @@ export class CheckoutComponent {
         }
         if(!this.name ||
           !this.surname ||
-          !this.company ||
+         // !this.company ||
           !this.country_region ||
           !this.city ||
           !this.address ||
-          !this.street ||
+        //  !this.street ||
           !this.postcode_zip ||
           !this.phone ||
           !this.email){
@@ -200,11 +200,11 @@ export class CheckoutComponent {
     }
     if(!this.name ||
       !this.surname ||
-      !this.company ||
+     // !this.company ||
       !this.country_region ||
       !this.city ||
       !this.address ||
-      !this.street ||
+     // !this.street ||
       !this.postcode_zip ||
       !this.phone ||
       !this.email){
@@ -233,7 +233,7 @@ export class CheckoutComponent {
 
         this.cartService.storeTemp(data).subscribe((resp:any) => {
 
-          const mp = new MercadoPago('TEST-b1cd2cef-428c-4ccb-9cf4-c9c350f34215');
+          const mp = new MercadoPago('TEST-cf44ad92-696d-4c1a-89fc-7697d89ca0b0');
           const bricksBuilder = mp.bricks();
   
           mp.bricks().create("wallet", "wallet_container", {
@@ -268,11 +268,11 @@ export class CheckoutComponent {
 
     if(!this.name ||
       !this.surname ||
-      !this.company ||
+     // !this.company ||
       !this.country_region ||
       !this.city ||
       !this.address ||
-      !this.street ||
+      //!this.street ||
       !this.postcode_zip ||
       !this.phone ||
       !this.email){
@@ -301,11 +301,11 @@ export class CheckoutComponent {
   editAddress(){
     if(!this.name ||
       !this.surname ||
-      !this.company ||
+      //!this.company ||
       !this.country_region ||
       !this.city ||
       !this.address ||
-      !this.street ||
+     // !this.street ||
       !this.postcode_zip ||
       !this.phone ||
       !this.email){

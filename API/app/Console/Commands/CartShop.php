@@ -28,7 +28,7 @@ class CartShop extends Command
      */
     public function handle()
     {
-        date_default_timezone_set("America/Lima");
+        date_default_timezone_set("America/Argentina/Buenos_Aires");
 
         $users = User::whereHas("carts",function($query) {
             $query->whereRaw("DATEDIFF(updated_at,created_at) < 3");

@@ -156,10 +156,10 @@ export const environment = {
       'thumbnail': './assets/media/demos/demo20.png'
     },
   },
-  URL_BACKEND: 'http://api.dominio.com/',
-  URL_SERVICIOS: 'http://api.dominio.com/api',
-  URL_FRONTED: 'http://admin.dominio.com',
-  URL_TIENDA: 'http://tienda.dominio.com',
+  URL_BACKEND: 'http://api.hermananahomi.com/',
+  URL_SERVICIOS: 'http://api.hermananahomi.com/api',
+  URL_FRONTED: 'http://admin.casadelosradiadores.com.ar',
+  URL_TIENDA: 'http://tienda.casadelosradiadores.com.ar',
 };
 
 /*

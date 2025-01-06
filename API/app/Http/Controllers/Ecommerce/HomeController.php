@@ -48,7 +48,7 @@ class HomeController extends Controller
         $product_last_selling = Product::where("state",2)->inRandomOrder()->limit(3)->get();
 
 
-        date_default_timezone_set("America/Lima");
+        date_default_timezone_set("America/Argentina/Buenos_Aires");
         $DISCOUNT_FLASH = Discount::where("type_campaing",2)->where("state",1)
                             ->where("start_date","<=",today())
                             ->where("end_date",">=",today())
@@ -268,7 +268,7 @@ class HomeController extends Controller
         }
         $product_general_ids_array = [];
         if($options_aditional && sizeof($options_aditional) > 0 && in_array("campaing",$options_aditional)){
-            date_default_timezone_set("America/Lima");
+            date_default_timezone_set("America/Argentina/Buenos_Aires");
             $discount = Discount::where("type_campaing",1)->where("state",1)
                         ->where("start_date","<=",today())
                         ->where("end_date",">=",today())
@@ -304,7 +304,7 @@ class HomeController extends Controller
                 "message_text" => "El codigo de la campaña de descuento no existe"
             ]);
         }
-        date_default_timezone_set("America/Lima");
+        date_default_timezone_set("America/Argentina/Buenos_Aires");
         $DISCOUNT_LINK = Discount::where("code",$code_discount)
                                 ->where("state",1)
                                 ->where("type_campaing",3)

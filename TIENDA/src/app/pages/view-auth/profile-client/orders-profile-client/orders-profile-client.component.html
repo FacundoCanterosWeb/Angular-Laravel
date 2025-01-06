@@ -16,7 +16,7 @@
                <td data-info="title">{{ sale.method_payment }}</td>
                <td >{{ sale.created_at }} </td>
                <td data-info="status pending">{{ sale.total }} {{ sale.currency_payment }}</td>
-               <td><a href="#" onclick="return false;" (click)="detailShow(sale)" class="tp-logout-btn">Detail</a></td>
+               <td><a href="#" onclick="return false;" (click)="detailShow(sale)" class="tp-logout-btn">Detalle</a></td>
             </tr>
             @for(sale_detail of sale.sale_details;track sale_detail.id) {
                <tr *ngIf="sale.sale_detail_show">

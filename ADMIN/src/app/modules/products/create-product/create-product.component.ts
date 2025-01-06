@@ -134,11 +134,17 @@ export class CreateProductComponent {
 
   save(){
 
-    if(!this.title || !this.sku || !this.price_usd || !this.price_pen || !this.marca_id
+    if(!this.title || !this.sku || !this.price_pen || !this.marca_id
       || !this.file_imagen|| !this.categorie_first_id|| !this.description|| !this.resumen|| (this.selectedItems == 0)){
       this.toastr.error("Validacion","Los campos con el * son obligatorio");
       return;
     }
+
+    // Validación personalizada para price_usd
+if (this.price_usd === null || this.price_usd === undefined) {
+  this.toastr.error("Validacion", "El campo 'Precio USD' debe ser un número válido.");
+  return;
+}
 
 
     let formData = new FormData();

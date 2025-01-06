@@ -121,14 +121,14 @@
 														<table width="100%" border="0" cellspacing="0" cellpadding="0">
 															<tr>
 																<td style="border-radius: 10px 10px 0 0;" bgcolor="#ffffff">
-																	<!-- Logo -->
+																	<!-- Logo
 																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
 																		<tr>
 																			<td class="img-center p-30 px-15" style="font-size:0pt; line-height:0pt; text-align:center; padding: 30px; padding-left: 15px; padding-right: 15px;">
 																				<a href="https://laravest.com/" target="_blank"><img src="https://laravest.com/assets_lab/images/Logo-2.webp" style="background: black;border-radius: 5px;" width="112" height="43" editable="true" border="0" alt="" /></a>
 																			</td>
 																		</tr>
-																	</table>
+																	</table> -->
 																	<!-- Logo -->
 											
 																	<!-- Main -->
@@ -148,17 +148,18 @@
 																								<tr>
 																									<td class="title-36 a-center pb-15" style="font-size:36px; line-height:40px; color:#282828; font-family:'PT Sans', Arial, sans-serif; min-width:auto !important; text-align:center; padding-bottom: 15px;">
 																										<multiline>
-																											<strong>Verify Your Email Account</strong>
+																											<strong>Verifica tu cuenta de correo electrónico</strong>
 																										</multiline>
 																									</td>
 																								</tr>
 																								<tr>
 																									<td class="text-16 lh-26 a-center pb-25" style="font-size:16px; color:#6e6e6e; font-family:'PT Sans', Arial, sans-serif; min-width:auto !important; line-height: 26px; text-align:center; padding-bottom: 25px;">
 																										<multiline>
-																											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+																											Por favor, verifica tu dirección de correo electrónico para activar tu cuenta. Simplemente haz clic en el enlace de confirmación que te hemos enviado.
 																										</multiline>
 																									</td>
 																								</tr>
+																								
 																								<tr>
 																									<td align="center">
 																										<!-- Button -->
@@ -200,7 +201,7 @@
 															<table width="100%" border="0" cellspacing="0" cellpadding="0">
 																<tr>
 																	<td align="center" class="pb-20" style="padding-bottom: 20px;">
-																		<!-- Socials -->
+																		<!-- Socials 
 																		<table border="0" cellspacing="0" cellpadding="0">
 																			<tr>
 																				<td class="img" width="34" style="font-size:0pt; line-height:0pt; text-align:left;">
@@ -219,7 +220,7 @@
 																					<a href="#" target="_blank"><img src="../images/ico_pinterest.png" width="34" height="34" editable="true" border="0" alt="" /></a>
 																				</td>
 																			</tr>
-																		</table>
+																		</table>-->
 																		<!-- END Socials -->
 																	</td>
 																</tr>

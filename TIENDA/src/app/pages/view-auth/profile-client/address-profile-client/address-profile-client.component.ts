@@ -42,11 +42,11 @@ export class AddressProfileClientComponent {
 
     if(!this.name ||
       !this.surname ||
-      !this.company ||
+     // !this.company ||
       !this.country_region ||
       !this.city ||
       !this.address ||
-      !this.street ||
+     // !this.street ||
       !this.postcode_zip ||
       !this.phone ||
       !this.email){
@@ -76,11 +76,11 @@ export class AddressProfileClientComponent {
   editAddress(){
     if(!this.name ||
       !this.surname ||
-      !this.company ||
+     // !this.company ||
       !this.country_region ||
       !this.city ||
       !this.address ||
-      !this.street ||
+    //  !this.street ||
       !this.postcode_zip ||
       !this.phone ||
       !this.email){

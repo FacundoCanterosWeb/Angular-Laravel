@@ -484,10 +484,8 @@ table tr td:last-child {
         <tbody>
             <tr>
                 <td style="padding: 0 !important;border-bottom:none;">
-                    <img
-                        style="width:210px;height: 65px;background:black;border-radius:5px;"
-                        src="{{ public_path('laravest.png') }}"
-                    >
+                    <h3> CUAGLIA "La Casa de los Radiadores"
+                </h3>
                 </td>
                 <td style="padding: 0 !important;border-bottom:none;">
                     <br>

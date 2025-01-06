@@ -94,7 +94,7 @@ export class CartService {
     if(PRODUCTION){
       URL = URL_SERVICIOS+"/ecommerce/mercadopago";
     }else{
-      URL = "https://mercadopago.laravest.com/api/ecommerce/mercadopago?price_unit="+price_total;
+      URL = "https://casadelosradiadores.com.ar/api/api/ecommerce/mercadopago?price_unit="+price_total;
     }
     return this.http.get(URL,{headers: headers});
   }

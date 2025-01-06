@@ -104,10 +104,10 @@
                                <div class="col-md-12">
                                   <div class="tp-checkout-input">
                                      <label>Ciudad</label>
-                                     <input type="text" name="city" [(ngModel)]="city" placeholder="Chaco">
+                                     <input type="text" name="city" [(ngModel)]="city" placeholder="Resistencia">
                                   </div>
                                </div>
-                               <div class="col-md-6">
+                               <div class="col-md-12">
                                   <div class="tp-checkout-input">
                                      <label>Codigo Postal</label>
                                      <input type="text" name="postcode_zip" [(ngModel)]="postcode_zip" placeholder="3500">
@@ -157,7 +157,7 @@
              <div class="col-lg-5">
                 <!-- checkout place order -->
                 <div class="tp-checkout-place white-bg">
-                   <h3 class="tp-checkout-place-title">Your Order</h3>
+                   <h3 class="tp-checkout-place-title">Tu Pedido</h3>
 
                    <div class="tp-order-info-list">
                       <ul>
@@ -183,24 +183,7 @@
                             <span>{{ totalCarts }} {{ currency }}</span>
                          </li>
 
-                         <!-- shipping -->
-                         <li class="tp-order-info-list-shipping">
-                            <span>Shipping</span>
-                            <div class="tp-order-info-list-shipping-item d-flex flex-column align-items-end">
-                               <span>
-                                  <input id="flat_rate" type="radio" name="shipping">
-                                  <label for="flat_rate">Flat rate: <span>$0.00</span></label>
-                               </span>
-                               <span>
-                                  <input id="local_pickup" type="radio" name="shipping">
-                                  <label for="local_pickup">Local pickup: <span>$0.00</span></label>
-                               </span>
-                               <span>
-                                  <input id="free_shipping" type="radio" name="shipping">
-                                  <label for="free_shipping">Free shipping</label>
-                               </span>
-                            </div>
-                         </li>
+          
 
                          <!-- total -->
                          <li class="tp-order-info-list-total">
@@ -218,21 +201,19 @@
                          </div> -->
                          <div id="wallet_container"></div> 
                       </div>
-                      <div class="tp-checkout-payment-item paypal-payment">
+                      <!--<div class="tp-checkout-payment-item paypal-payment">
                          <input type="radio" id="paypal" name="payment" checked>
                          <label for="paypal">PayPal <img src="assets/img/icon/payment-option.png" alt=""> <a href="#">What is PayPal?</a></label>
                         </div>
-                       <div #paypal ></div>
+                       <div #paypal ></div>-->
                    </div>
-                   <div class="tp-checkout-agree">
+                  <!--<div class="tp-checkout-agree">
                       <div class="tp-checkout-option">
                          <input id="read_all" type="checkbox">
                          <label for="read_all">I have read and agree to the website.</label>
                       </div>
-                   </div>
-                   <div class="tp-checkout-btn-wrapper">
-                      <a href="#" class="tp-checkout-btn w-100">Place Order</a>
-                   </div>
+                   </div>--> 
+                 
                 </div>
              </div>
           </div>
